@@ -1,11 +1,1 @@
-local MainEvent = game.ReplicatedStorage.MainEvent
-MainEvent:FireServer("VirusCough");
-MainEvent:FireServer("TeleportDetect");
-MainEvent:FireServer("CHECKER_1");
-MainEvent:FireServer("CHECKER");
-MainEvent:FireServer("GUI_CHECK");
-MainEvent:FireServer("OneMoreTime");
-MainEvent:FireServer("checkingSPEED");
-MainEvent:FireServer("BANREMOTE");
-MainEvent:FireServer("BreathingHAMON");
-MainEvent:FireServer("PERMAIDBAN");
+game:GetService('ReplicatedStorage'):FindFirstChild('MainEvent'):FireServer('OneMoreTime');
